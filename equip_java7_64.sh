@@ -18,7 +18,7 @@ fi
 sudo apt-get install curl -y 
 
 curl -L --cookie "oraclelicense=accept-securebackup-cookie" http://download.oracle.com/otn-pub/java/jdk/7u65-b17/jdk-7u65-linux-x64.tar.gz -o jdk-7-linux-x64.tar.gz
-tar -xvf jdk-7-linux-x64.tar.gz
+tar -xf jdk-7-linux-x64.tar.gz
 
 sudo mkdir -p /usr/lib/jvm
 sudo mv ./jdk1.7.* /usr/lib/jvm/
