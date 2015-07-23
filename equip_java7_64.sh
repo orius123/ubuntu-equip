@@ -13,7 +13,7 @@ if [ -d "/usr/lib/jvm/" ]; then
 	exit 0
 fi
 
-wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
+# wget --no-check-certificate https://github.com/aglover/ubuntu-equip/raw/master/equip_base.sh && bash equip_base.sh
 
 sudo apt-get install curl -y 
 
